@@ -36,36 +36,37 @@ export const Works = () => {
     },
     { 
       id: 2,
-      title: 'VeriTru Project', 
-      description: `An advocacy project website built using
-      MEAN stack with fact-checking tool to promote actions against
-      fake news.`,
-      alter: 'VeriTru Project',
+      title: 'Docs clone Project', 
+      description: `An textor project website built using
+       simple react to design and develop its frontend.`,
+      alter: 'Google docs  Project',
       image: `${Veritru}`,
     },
     { 
       id: 3,
-      title: 'LoFo Project', 
-      description: `Logistics and Forwarding website built using
-      ReactJS to design and develop its front-end.`,
-      alter: 'LoFo Project',
+      title: 'ComotChat App Project', 
+      description: `It is a chat application project
+       built using ReactJS and Express with Socket.io to 
+        demonstrate the realtime chat capabilities of the tech stack. `,
+      alter: 'CometChat Project',
       image: `${Lofo}`,
     },
     { 
       id: 4,
-      title: 'Startup Project', 
-      description: `A website portfolio project for the Startup Dev Team
-      built using MEVN stack to demonstrate the CRUD capabilities of the tech stack.`,
-      alter: 'Startup Project',
+      title: 'SpotifyRed Project', 
+      description: `A simple react app that uses the Youtube
+       API to listen and watch songs and videos online 
+       from anywhere in the world without ads.`,
+      alter: 'Youtube Project',
       image: `${Startup}`,
     },
     { 
       id: 5,
-      title: 'LaCalle Cafe', 
-      description: `A website project for the La Calle Cafe business
-      built using Wordpress and PHP with integrated SEO tools to help
-      the business ramp up its prospects and lead generation.`,
-      alter: 'Startup Project',
+      title: 'FoodApp Delivery Project', 
+      description: `A website project for the Food Delivery service
+       as the online food ordering and have monthly or 
+       annual subsicrption according to the user need.`,
+      alter: 'Food Project',
       image: `${Lacalle}`,
     },
   ]);

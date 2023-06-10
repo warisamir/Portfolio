@@ -1,59 +1,59 @@
 {
     "basics": {
-        "name": "Mark Tan",
-        "label": "Web Developer",
-        "email": "markcmtan@gmail.com",
+        "name": "Waris Amir",
+        "label": "web Developer",
+        "email": "warisamir1918@gmail.com",
         "phone": "(XXX) XXX-XXXX",
         "picture": "mt.png",
         "x_title": "Hello, I'm",
         "job1": "Web",
         "job2": "Developer",
-        "description": "Hello! I'm Mark! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Angeles, Philippines.",
-        "keywords": "personal,website,portfolio,template,kit,mark,tan,taniyow,webdev,web,developer,angeles,philippines,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
-        "url": "https://taniyow.vercel.app/",
+        "description": "Hello! I'm Waris! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
+        "summary": "based in Ghaziabad, India.",
+        "keywords": "personal,website,portfolio,template,kit,Waris,Amir,webdev,web,developer,Ghaziabad,India,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "https://warisamir.vercel.app/",
         "location": {
             "address": "XX XXXXXstreet",
             "postalCode": "XXXXX",
-            "city": "Angeles",
-            "country": "Philippines",
-            "countryCode": "PH",
-            "region": "Pampanga"
+            "city": "Ghaziabad",
+            "country": "India",
+            "countryCode": "IN",
+            "region": "Uttar Pradesh"
         },
         "profiles": [
             {
                 "network": "Google",
-                "username": "markcmtan@gmail.com",
-                "url": "mailto:markcmtan@gmail.com",
+                "username": "warisamir1918@gmail.com",
+                "url": "mailto:warisamir1918@gmail.com",
                 "x_icon": "fab fa-google"
             },
             {
                 "network": "LinkedIn",
-                "username": "mcmtan",
-                "url": "https://www.linkedin.com/in/mcmtan/",
+                "username": "warisamir",
+                "url": "https://www.linkedin.com/in/waris-amir-0387461b3/",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "taniyow",
-                "url": "https://github.com/taniyow",
+                "username": "warisamir",
+                "url": "https://github.com/warisamir",
                 "x_icon": "fab fa-github"
             },
             {
                 "network": "GitLab",
-                "username": "taniyow",
-                "url": "https://gitlab.com/taniyow",
+                "username": "warisamir",
+                "url": "https://gitlab.com/warisamir",
                 "x_icon": "fab fa-gitlab"
             },
             {
                 "network": "Telegram",
-                "username": "marktaniyow",
-                "url": "https://t.me/marktaniyow",
+                "username": "warisamir",
+                "url": "https://t.me/Rockyansari",
                 "x_icon": "fab fa-telegram-plane"
             },
             {
                 "network": "Discord",
-                "username": "taniyow#9142",
+                "username": "rockhardy#1062",
                 "url": "https://discord.com",
                 "x_icon": "fab fa-discord"
             }
@@ -86,10 +86,10 @@
             "institution": "University",
             "area": "Software Development",
             "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
+            "startDate": "2020-06-29",
+            "endDate": "2013-06-10",
             "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "courses": ["Btech-Information Technology"]
         }
     ],
     "awards": [
@@ -118,7 +118,7 @@
     ],
     "languages": [
         {
-            "language": "German",
+            "language": "hindi",
             "fluency": "Native speaker"
         },
         {
@@ -126,19 +126,19 @@
             "fluency": "Fluent speaker"
         },
         {
-            "language": "French",
+            "language": "urdu",
             "fluency": "Good knowledge"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
-            "keywords": ["Ferrets", "Unicorns"]
+            "name": "Wildlife photography",
+            "keywords": ["Lions", "snakes"]
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
+            "name": "hawsh ",
             "reference": "Reference..."
         }
     ]
