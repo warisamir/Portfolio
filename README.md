@@ -1,6 +1,6 @@
 # Personal Portfolio Website built with React v16
 
-![image](https://github.com/warisamir/Portfolio/assets/77074869/28e62a51-dc1e-41ef-9148-cfe976aa1288)(https://portfolio-2xnm74m02-warisamir.vercel.app/)
+![image](/public/social-image.png?raw=true)(https://portfolio-2xnm74m02-warisamir.vercel.app/)
 
 [![Website mctan.dev](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://mctan.dev)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/taniyow/taniyow-portfolio-react/blob/master/LICENSE)
