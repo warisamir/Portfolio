@@ -1,18 +1,18 @@
 # Personal Portfolio Website built with React v16
+![image](https://github.com/warisamir/Portfolio/assets/77074869/bd93e7b7-1d72-4dee-ba1a-d0bcb47e1be2)
 
-![image](/public/social-image.png?raw=true)(https://portfolio-2xnm74m02-warisamir.vercel.app/)
-
+<!-- 
 [![Website mctan.dev](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://mctan.dev)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/taniyow/taniyow-portfolio-react/blob/master/LICENSE)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/taniyow/taniyow-portfolio-react/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
-
+ -->
 A clean and customizable ReactJS portfolio template for fellow developers. Credits to HamishMW!. View demo at [https://http://vercel.com//]
 
 -   built using [React](https://reactjs.org)
 -   bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 -   styled with [Material-UI](https://material-ui.com)
--   deployed on vercel [Vercel](https://vercel.com)(https://portfolio-2xnm74m02-warisamir.vercel.app/)
+-   deployed on vercel [Vercel](https://vercel.com)(https://portfolio-git-main-warisamir.vercel.app/)
 
 Special thanks to [Jo Lienhoop](https://github.com/JoHoop), and [Hamish Williams](https://github.com/HamishMW) for the inspiration.
 
