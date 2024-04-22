@@ -33,6 +33,7 @@ export const Works = () => {
       the background element.`,
       alter: 'React Portfolio',
       image: `${Portfolio}`,
+      url: `https://portfolio-warisamir.vercel.app/`
     },
     { 
       id: 2,
@@ -41,15 +42,17 @@ export const Works = () => {
        simple react to design and develop its frontend.`,
       alter: 'Google docs  Project',
       image: `${Veritru}`,
+      url: `https://google-docs-clone-gray-two.vercel.app/#/`
     },
     { 
       id: 3,
-      title: 'ComotChat App Project', 
+      title: 'Web-Socket Chat and Meeting Application', 
       description: `It is a chat application project
        built using ReactJS and Express with Socket.io to 
-        demonstrate the realtime chat capabilities of the tech stack. `,
+        demonstrate the realtime chat capabilities and having a meeting of 4 member can easily setup for a quick discussion & everyone can share their screen. `,
       alter: 'CometChat Project',
       image: `${Lofo}`,
+      url:`https://discord-ak-clone.netlify.app/`
     },
     { 
       id: 4,
@@ -59,37 +62,41 @@ export const Works = () => {
        from anywhere in the world without ads.`,
       alter: 'Youtube Project',
       image: `${Startup}`,
+      url:`https://youtube-project-eight.vercel.app/`
     },
     { 
       id: 5,
       title: 'FoodApp Delivery Project', 
       description: `A website project for the Food Delivery service
        as the online food ordering and have monthly or 
-       annual subsicrption according to the user need.`,
+       annual subsicrption according to the user need. but a needed a quick AWS server to setup docker environment to run.`,
       alter: 'Food Project',
       image: `${Lacalle}`,
+      url:`https://github.com/warisamir/FoodApp`
     },
   ]);
 
-  return (
-    <section id="works">
-      <Container component="main" className={classes.main} maxWidth="md">
-        {projects.map((project) => (
-          <div className="project" key={ project.id }>
-            <div className="__img_wrapper">
-              <img src={ project.image } alt={ project.alter }/>
-            </div>
-            <div className="__content_wrapper">
-              <h3 className="title">
-                <TextDecrypt text={ project.id + '. ' + project.title } />
-              </h3>
-              <p className="description">
-                { project.description }
-              </p>
-            </div>
-          </div>
-        ))}
-      </Container>
-    </section>
+    return (
+      <section id="works">
+        <Container component="main" className={classes.main} maxWidth="md">
+          {projects.map((project) => (
+            <a href={project.url} key={project.id} target="_blank" rel="noopener noreferrer" className="project-link">
+              <div className="project" key={project.id}>
+                <div className="__img_wrapper">
+                  <img src={project.image} alt={project.alter} />
+                </div>
+                <div className="__content_wrapper">
+                  <h3 className="title">
+                    <TextDecrypt text={project.id + '. ' + project.title} />
+                  </h3>
+                  <p className="description">
+                    {project.description}
+                  </p>
+                </div>
+              </div>
+            </a>
+          ))}
+        </Container>
+      </section>    
   );
 };
