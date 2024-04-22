@@ -75,15 +75,16 @@ export const Works = () => {
       url:`https://github.com/warisamir/FoodApp`
     },
   ]);
-
-    return (
-      <section id="works">
-        <Container component="main" className={classes.main} maxWidth="md">
-          {projects.map((project) => (
-            <a href={project.url} key={project.id} target="_blank" rel="noopener noreferrer" className="project-link">
+      return (
+        <section id="works">
+          <Container component="main" className={classes.main} maxWidth="md">
+            {projects.map((project) => (
               <div className="project" key={project.id}>
                 <div className="__img_wrapper">
                   <img src={project.image} alt={project.alter} />
+                  <a href={project.url} target="_blank" rel="noopener noreferrer" className="hidden-link">
+                    <span className="hidden-text">Visit project</span>
+                  </a>
                 </div>
                 <div className="__content_wrapper">
                   <h3 className="title">
@@ -94,9 +95,8 @@ export const Works = () => {
                   </p>
                 </div>
               </div>
-            </a>
-          ))}
-        </Container>
-      </section>    
-  );
+            ))}
+          </Container>
+        </section>
+      );  
 };
