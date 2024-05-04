@@ -21,9 +21,11 @@ export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
   const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                  designer & developer. I'm always down for something new and challenging!
-                  I'm here to help you create beautifully formatted websites. 
-                  My projects mostly includes web development.`;
+                   Frontend & Backend developer. I'm always up for something new and challenging!
+                  I am looking forward to join for a SDE role. 
+                  My projects mostly includes web development and webRTC, socket.io,Docker.
+                  I have good grasp on DSA and problem solving ability,
+                  agile for adaptability to any language`;
 
   return (
     <section id="about">
