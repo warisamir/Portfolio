@@ -21,11 +21,9 @@ export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
   const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                   Frontend & Backend developer. I'm always up for something new and challenging!
-                  I am looking forward to join for a SDE role. 
-                  My projects mostly includes web development and webRTC, socket.io,Docker.
-                  I have good grasp on DSA and problem solving ability,
-                  agile for adaptability to any language`;
+                   a versatile Full-Stack Developer experienced in both Frontend and Backend technologies. 
+                   Passionate about web development, WebRTC, and Docker, with a strong foundation in data structures, algorithms, 
+                   and problem-solving. Adaptable and eager to take on challenges in a Software Development Engineer role.`;
 
   return (
     <section id="about">
