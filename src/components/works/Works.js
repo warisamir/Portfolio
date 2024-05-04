@@ -33,7 +33,7 @@ export const Works = () => {
       the background element.`,
       alter: 'React Portfolio',
       image: `${Portfolio}`,
-      url: `https://portfolio-warisamir.vercel.app/`
+      url: `https://portfolio-git-main-warisamirs-projects.vercel.app/`
     },
     { 
       id: 2,
