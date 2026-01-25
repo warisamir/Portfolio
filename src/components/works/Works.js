@@ -13,6 +13,8 @@ import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
 import Startup from '../../assets/recentprojects/startup.png';
 import Lacalle from '../../assets/recentprojects/lacalle.png';
+import Aiweb from '../../assets/ai web.png';
+import pharmacy from '../../assets/pharmacy.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -37,13 +39,13 @@ export const Works = () => {
     },
     { 
       id: 2,
-      title: 'NearPharma – Spring Boot Backend API', 
+      title: 'NearPharma - Spring Boot Backend API', 
       description: `Designed and developed a Spring Boot REST API to locate nearby pharmacies based on user location.
       Implemented distance-based filtering logic using latitude and longitude, integrated external APIs for routing
       and directions, and built CRUD operations for pharmacy management using Spring Data JPA.
       The application follows a layered architecture and is containerized using Docker for deployment.`,
       alter: 'NearPharma Backend API',
-      image: `${Startup}`, // reuse image or add backend image later
+      image: `${pharmacy}`,
       url: `https://github.com/warisamir/NearPharmaViaSpringboot`
     },
     { 
@@ -63,7 +65,7 @@ export const Works = () => {
       and designed clean API contracts following REST principles.
       The project focuses on backend fundamentals and scalable application structure.`,
       alter: 'Fitness Backend API',
-      image: `${Lacalle}`, // reuse image
+      image: `${Aiweb}`, 
       url: `https://github.com/warisamir/FitnessApiViaSpringboot`
     },
     { 
