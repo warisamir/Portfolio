@@ -59,14 +59,14 @@ export const Contact = () => {
       <Container component="main" className={classes.main} maxWidth="md">
         <div className="contact">
           <div className="_form_wrapper">
-            {/* <form ref={form} onSubmit={sendEmail} className={classes.form}>
+            <form ref={form} onSubmit={sendEmail} className={classes.form}>
                 <TextField
                   id="outlined-name-input"
                   label="Name"
                   type="text"
                   size="small"
                   variant="filled"
-                  name="name"
+                name="from_name"
                   className={classes.formfield}
                 />
                 <TextField
@@ -75,7 +75,7 @@ export const Contact = () => {
                   type="email"
                   size="small"
                   variant="filled"
-                  name="email"
+                name="from_email"
                   className={classes.formfield}
                 />
                 <TextField
@@ -92,33 +92,7 @@ export const Contact = () => {
                 <button type="submit" value="Send" className="submit-btn">
                 <i className="fas fa-terminal"></i>
                   <Typography component='span'> Send Message</Typography>
-                </button>
-              </form> */}
-            <form ref={form} onSubmit={sendEmail}>
-
-              <input type="hidden" name="to_name" value="Waris" />
-
-              <TextField
-                label="Name"
-                type="text"
-                name="from_name"
-                className={classes.formfield}
-              />
-
-              <TextField
-                label="Email"
-                type="email"
-                name="from_email" // optional, but useful later
-                className={classes.formfield}
-              />
-
-              <TextField
-                label="Message"
-                multiline
-                minRows={5}
-                name="message"
-                className={classes.formfield}
-              />
+              </button>
             </form>
           </div>
           <h1 className="contact_msg">
