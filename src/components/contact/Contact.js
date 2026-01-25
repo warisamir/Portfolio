@@ -38,9 +38,9 @@ export const Contact = () => {
 
     emailjs.sendForm('service_pm2c3r4', 'template_ew96pte', form.current, 'o4zIESWEzs_ppjYfS')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
     Swal.fire({
       position: 'center',
@@ -54,12 +54,12 @@ export const Contact = () => {
 
 
 
-    return (
-      <section id="contact">
-        <Container component="main" className={classes.main} maxWidth="md">
-          <div className="contact">
-            <div className="_form_wrapper">
-              <form ref={form} onSubmit={sendEmail} className={classes.form}>
+  return (
+    <section id="contact">
+      <Container component="main" className={classes.main} maxWidth="md">
+        <div className="contact">
+          <div className="_form_wrapper">
+            {/* <form ref={form} onSubmit={sendEmail} className={classes.form}>
                 <TextField
                   id="outlined-name-input"
                   label="Name"
@@ -93,13 +93,39 @@ export const Contact = () => {
                 <i className="fas fa-terminal"></i>
                   <Typography component='span'> Send Message</Typography>
                 </button>
-              </form>
-            </div>
-            <h1 className="contact_msg">
-              <TextDecrypt text={greetings}/>
-            </h1>
+              </form> */}
+            <form ref={form} onSubmit={sendEmail}>
+
+              <input type="hidden" name="to_name" value="Waris" />
+
+              <TextField
+                label="Name"
+                type="text"
+                name="from_name"
+                className={classes.formfield}
+              />
+
+              <TextField
+                label="Email"
+                type="email"
+                name="from_email" // optional, but useful later
+                className={classes.formfield}
+              />
+
+              <TextField
+                label="Message"
+                multiline
+                minRows={5}
+                name="message"
+                className={classes.formfield}
+              />
+            </form>
           </div>
-        </Container>
-      </section>
+          <h1 className="contact_msg">
+            <TextDecrypt text={greetings} />
+          </h1>
+        </div>
+      </Container>
+    </section>
   );
 };
