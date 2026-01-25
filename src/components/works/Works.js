@@ -37,6 +37,17 @@ export const Works = () => {
     },
     { 
       id: 2,
+      title: 'NearPharma – Spring Boot Backend API', 
+      description: `Designed and developed a Spring Boot REST API to locate nearby pharmacies based on user location.
+      Implemented distance-based filtering logic using latitude and longitude, integrated external APIs for routing
+      and directions, and built CRUD operations for pharmacy management using Spring Data JPA.
+      The application follows a layered architecture and is containerized using Docker for deployment.`,
+      alter: 'NearPharma Backend API',
+      image: `${Startup}`, // reuse image or add backend image later
+      url: `https://github.com/warisamir/NearPharmaViaSpringboot`
+    },
+    { 
+      id: 3,
       title: 'Docs clone Project', 
       description: `An textor project website built using
        simple react to design and develop its frontend.`,
@@ -45,7 +56,18 @@ export const Works = () => {
       url: `https://google-docs-clone-gray-two.vercel.app/#/`
     },
     { 
-      id: 3,
+      id: 4,
+      title: 'Fitness Management REST API', 
+      description: `Built a Spring Boot based backend service exposing RESTful APIs to manage fitness-related data.
+      Implemented business logic in service layers, handled database persistence using Spring Data JPA,
+      and designed clean API contracts following REST principles.
+      The project focuses on backend fundamentals and scalable application structure.`,
+      alter: 'Fitness Backend API',
+      image: `${Lacalle}`, // reuse image
+      url: `https://github.com/warisamir/FitnessApiViaSpringboot`
+    },
+    { 
+      id: 5,
       title: 'Web-Socket Chat and Meeting Application', 
       description: `It is a chat application project
        built using ReactJS and Express with Socket.io to 
@@ -55,7 +77,7 @@ export const Works = () => {
       url:`https://discord-ak-clone.netlify.app/`
     },
     { 
-      id: 4,
+      id: 6,
       title: 'SpotifyRed Project', 
       description: `A simple react app that uses the Youtube
        API to listen and watch songs and videos online 
@@ -65,7 +87,7 @@ export const Works = () => {
       url:`https://youtube-project-eight.vercel.app/`
     },
     { 
-      id: 5,
+      id: 7,
       title: 'FoodApp Delivery Project', 
       description: `A website project for the Food Delivery service
        as the online food ordering and have monthly or 
