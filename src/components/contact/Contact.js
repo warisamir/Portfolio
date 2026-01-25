@@ -60,6 +60,7 @@ export const Contact = () => {
         <div className="contact">
           <div className="_form_wrapper">
             <form ref={form} onSubmit={sendEmail} className={classes.form}>
+              <input type="hidden" name="to_name" value="Waris" />
                 <TextField
                   id="outlined-name-input"
                   label="Name"
