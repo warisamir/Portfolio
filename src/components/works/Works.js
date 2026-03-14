@@ -13,8 +13,8 @@ import Veritru from '../../assets/recentprojects/veritru.png';
 import Lofo from '../../assets/recentprojects/lofo.png';
 import Startup from '../../assets/recentprojects/startup.png';
 import Lacalle from '../../assets/recentprojects/lacalle.png';
-import Aiweb from '../../assets/ai web.png';
-import pharmacy from '../../assets/pharmacy.png';
+import Aiweb from '../../assets/recentprojects/ai web.png';
+import pharmacy from '../../assets/recentprojects/pharmacy.png';
 
 const useStyles = makeStyles((theme) => ({
   main: {
