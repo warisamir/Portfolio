@@ -9,16 +9,16 @@
         "job1": "Web",
         "job2": "Developer",
         "description": "Hello! I'm Waris! Your web development enthusiast. Always down for something new and challenging! Just like markdown, I'm here to help you create beautifully formatted websites.",
-        "summary": "based in Ghaziabad, India.",
-        "keywords": "personal,website,portfolio,template,kit,Waris,Amir,webdev,web,developer,Ghaziabad,India,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "summary": "based in Bangalore, India.",
+        "keywords": "personal,website,portfolio,template,kit,Waris,Amir,webdev,web,developer,Bangalore,India,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
         "url": "https://portfolio-warisamir.vercel.app/",
         "location": {
-            "address": "XX XXXXXstreet",
-            "postalCode": "XXXXX",
-            "city": "Ghaziabad",
+            "address": "Ecospace,Bellandur,Sarjapur Road,Bangalore",
+            "postalCode": " 560103",
+            "city": "Bangalore",
             "country": "India",
             "countryCode": "IN",
-            "region": "Uttar Pradesh"
+            "region": "Karnataka"
         },
         "profiles": [
             {
@@ -61,52 +61,52 @@
     },
     "work": [
         {
-            "company": "Company",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "highlights": ["Started the company"]
+            "company": "Tech Solutions Inc.",
+            "position": "Frontend Developer",
+            "website": "http://example.com",
+            "startDate": "2021-01-01",
+            "endDate": "2023-01-01",
+            "summary": "Developed scalable frontend applications using React and Material-UI.",
+            "highlights": ["Improved application performance by 30%", "Mentored junior developers"]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "organization": "Open Source Initiative",
+            "position": "Contributor",
+            "website": "http://opensource.org/",
+            "startDate": "2020-01-01",
+            "endDate": "2021-01-01",
+            "summary": "Contributed to various open-source React projects.",
+            "highlights": ["Merged 50+ pull requests in major repositories"]
         }
     ],
     "education": [
         {
-            "institution": "University",
-            "area": "Software Development",
-            "studyType": "Bachelor",
-            "startDate": "2020-06-29",
-            "endDate": "2013-06-10",
-            "gpa": "4.0",
-            "courses": ["Btech-Information Technology"]
+            "institution": "Technical University",
+            "area": "Information Technology",
+            "studyType": "Bachelor of Technology",
+            "startDate": "2016-08-01",
+            "endDate": "2020-06-10",
+            "gpa": "3.8",
+            "courses": ["Data Structures", "Algorithms", "Web Engineering"]
         }
     ],
     "awards": [
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
+            "title": "Best Developer Award",
+            "date": "2022-11-01",
+            "awarder": "Tech Solutions Inc.",
+            "summary": "Awarded for exceptional performance and dedication."
         }
     ],
     "publications": [
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "name": "Modern React Patterns",
+            "publisher": "Tech Blog",
+            "releaseDate": "2023-10-01",
+            "website": "http://example.com/blog",
+            "summary": "An article detailing advanced component patterns in React."
         }
     ],
     "skills": [
@@ -138,8 +138,8 @@
     ],
     "references": [
         {
-            "name": "Akasha Khandelwal ,Archit Aggarwal , snigdha ",
-            "reference": "Reference..."
+            "name": "Available upon request",
+            "reference": ""
         }
     ]
 }

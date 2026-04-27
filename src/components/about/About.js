@@ -20,8 +20,7 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const greetings = "Hello there!";
-  const aboutme = `I'm ${FirstName} ${LastName}, a multidisciplinary 
-                   a versatile Full-Stack Developer experienced in both Frontend and Backend technologies. 
+  const aboutme = `I'm ${FirstName} ${LastName}, a versatile Full-Stack Developer experienced in both Frontend and Backend technologies. 
                    Passionate about web development, WebRTC, and Docker, with a strong foundation in data structures, algorithms, 
                    and problem-solving. Adaptable and eager to take on challenges in a Software Development Engineer role.`;
 
